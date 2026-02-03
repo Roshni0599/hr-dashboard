@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# HR Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An enterprise-grade HR Dashboard built as part of my internship project.  
+This dashboard provides HR teams with a centralized interface to manage employees, approvals, leave attendance, performance, and payroll workflows — all with a clean, user-friendly design.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
+- **Employee Management** – Add, view, and manage employee records.
+- **Approvals Workflow** – Track and approve requests with audit trails.
+- **Leave & Attendance** – Monitor attendance and leave applications.
+- **Performance Reports** – Visualize KPIs with charts and progress bars.
+- **Salary Structure** – Manage payroll and salary breakdowns.
+- **Quick Actions** – Access frequently used HR operations instantly.
+- **Responsive UI** – Built with React + TailwindCSS for modern design.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tech Stack
+- **Frontend:** React, React Router, TailwindCSS
+- **Charts & Visuals:** Recharts, React Circular Progressbar
+- **Icons:** React Icons
+- **Build Tool:** Create React App
+- **Deployment:** GitHub Pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📂 Project Structure
+src/ ┣ components/   # Reusable UI components (Sidebar, Topbar, Cards) ┣ pages/        # Dashboard pages (Employees, Approvals, Reports, etc.) ┣ App.jsx       # Root component with routes ┣ main.jsx / index.js # Entry point ┗ index.css     # Global styles
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Setup Instructions
+1. Clone the repository:
+   git clone https://github.com/Roshni0599/hr-dashboard.git
+   cd hr-dashboard
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
+           npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Run locally:
+           npm start
 
-### `npm run eject`
+4. Build for production:
+            npm run build
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Deploy to GitHub Pages:
+            npm run deploy
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Internship Contribution
+This project was developed during my internship, where I:
+- Led the frontend team for dashboard development.
+- Designed and implemented modular, scalable components.
+- Integrated charts and analytics for HR insights.
+- Ensured pixel-perfect UI alignment with design specs.
+- Deployed the project live on GitHub Pages.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
